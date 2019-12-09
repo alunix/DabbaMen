@@ -4,6 +4,7 @@ import adapters.AddressItemsListAdapter
 import android.annotation.SuppressLint
 import android.app.ProgressDialog
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
@@ -38,6 +39,10 @@ class AddressesList : AppCompatActivity(), View.OnClickListener {
     var mAddressitemsListAdapter: AddressItemsListAdapter? = null
     lateinit var mlinkAddAddressTV: TextView
     override fun onClick(v: View?) {
+
+        val intent = Intent(_context, AddAddress::class.java)
+        startActivity(intent)
+        
         Toast.makeText(
             _context,
             "Add New Address Clicked",

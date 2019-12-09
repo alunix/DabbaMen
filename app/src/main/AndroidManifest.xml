@@ -59,6 +59,10 @@
             android:name=".AddressesList"
             android:screenOrientation="userPortrait"
             android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".AddAddress"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/MyMaterialTheme" />
     </application>
 
 </manifest>
