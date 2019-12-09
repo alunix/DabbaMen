@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="13dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/product_list_row_productIM"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            android:src="@drawable/epooja_loader"
+            android:visibility="visible"
+            app:siBorderColor="@color/Orange_A700"
+            app:siRadius="3dp" />
+
+        <TextView
+            android:id="@+id/updated_products_list_row_list_item_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:drawableStart="@drawable/chef_cap"
+            android:drawableLeft="@drawable/chef_cap"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/Green"
+            android:ellipsize="end"
+            android:fontFamily="roboto-thin"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:minLines="1"
+            android:text="@string/chef_name"
+            android:textColor="@color/Black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="roboto-thin"
+                android:gravity="center"
+                android:maxLines="2"
+                android:minLines="1"
+                android:text="@string/rating"
+                android:textColor="@color/Grey"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText,UnusedAttribute" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="roboto-thin"
+                android:gravity="center"
+                android:maxLines="2"
+                android:minLines="1"
+                android:text="@string/dishes"
+                android:textColor="@color/Grey"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText,UnusedAttribute" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="roboto-thin"
+                android:gravity="center"
+                android:maxLines="2"
+                android:minLines="1"
+                android:text="@string/served"
+                android:textColor="@color/Grey"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText,UnusedAttribute" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

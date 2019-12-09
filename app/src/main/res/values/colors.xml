@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <color name="colorToolbar">#222e3d</color>
+    <color name="rating_bar_active">#f4ca49</color>
+    <color name="Grey_700">#616161</color>
+    <color name="Blue">#2196F3</color>
+    <color name="input_ed_color">#666666</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Green">#4CAF50</color>
+    <color name="Red_direct">#FF0000</color>
+    <color name="Orange">@color/colorPrimary</color>
+    <color name="darkGrey_500">#333333</color>
+    <color name="lightBlack">#333</color>
+    <color name="Black">#000000</color>
+    <color name="bg_light_grey_ord_details">#f3f3f3</color>
+    <color name="black_trans80">#14000000</color>
+    <color name="Blue_Grey_50">#ECEFF1</color>
+    <color name="prd_code_clr">#FF5252</color>
+
+    <color name="plus_minus_qty">#ccc</color>
+    <color name="Green_700">#8AC542</color>
+    <color name="Orange_200">#FFCC80</color>
+    <color name="buy_now_green">#76B442</color>
+    <color name="Grey_50">#FAFAFA</color>
+    <color name="Orange_A700">#FF6D00</color>
+    <color name="Grey">#9E9E9E</color>
+
+
+
+
+
+
+
+
+
+    <color name="lightprimaryColor">#DCEDC8</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#727272</color>
+    <color name="demderColor">#B6B6B6</color>
+    <color name="redeem_button_color">#3398cc</color>
+    <color name="add_button_color">#ff9934</color>
+    <color name="share_button_color">#32ccfe</color>
+    <color name="Light_Green">#8BC34A</color>
+    <color name="Green_50">#E8F5E9</color>
+    <color name="Grey_500">#9E9E9E</color>
+    <color name="fab_color_pressed">@color/colorPrimaryDark</color>
+    <color name="fab_color_shadow">#44000000</color>
+    <color name="btn_default_light_normal">@color/colorPrimary</color>
+    <color name="btn_default_light_pressed">@color/colorPrimaryDark</color>
+    <color name="Grey_Background">#F6F6F6</color>
+    <color name="ProductName">#0070c0</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="pricecolor">#FFBA0621</color>
+
+    <color name="radio_button_selected_color">@color/colorPrimary</color>
+    <color name="radio_button_unselected_color">@android:color/transparent</color>
+</resources>

@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Tinmen</string>
+
+
+    <string name="app_getstarted">Get Started</string>
+    <string name="app_getstarted_desc"><![CDATA[Order home cooked food from the best home-chefs around you. To your office or home.<br> Deliverd in Dabbas.]]></string>
+
+
+    <string name="food_lunch_dinner">Lunch</string>
+    <string name="deliver_at">Office</string>
+    <string name="mobileno">Mobile Number</string>
+    <string name="reqotp">Request OTP</string>
+    <string name="byclicksignup">By Clicking Sign up you agree to the following Terms and Conditions without reservation</string>
+    <string name="forgotPassword">By Clicking Sign up you agree to the following Terms and Conditions without reservation</string>
+    <string name="signUp"></string>
+
+
+    <string name="txt_already_have_an_account_link">Already have an Account? Sign In</string>
+    <string name="txt_action_forgot_password">Forgot Password?</string>
+    <string name="new_sign_up">New?Sign Up</string>
+
+
+    <string name="product_hint">Product Name</string>
+    <string name="chef_name">Lakshmi Vadalapatla</string>
+
+    <string name="rating">Rating</string>
+    <string name="dishes">Dishes</string>
+    <string name="served">Served</string>
+
+
+    <string name="price">$Price</string>
+    <string name="price_no">$ 120</string>
+    <string name="btn_addtocart">Add</string>
+    <string name="logo_content_description">logo content description</string>
+    <string name="prd_desc_placeholder">Lorem ipsum dolor Lor em ipsum dolor Lor em ipsum dolor Lorem ipsum dolor</string>
+    <string name="title_activity_bash_board">BashBoardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="veg_only">Veg</string>
+    <string name="nonveg_only">All</string>
+    <string name="filter">Filter</string>
+
+
+    <string name="internet_enable">No InternetConnection</string>
+    <string name="internet_enable_message">Please check your mobile data or wifi connection.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snacks">Snacks</string>
+    <string name="fr">FR</string>
+    <string name="mo">MO</string>
+    <string name="tu">TU</string>
+    <string name="we">WE</string>
+    <string name="th">TH</string>
+
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="cnfpassword">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+
+    <string name="signin">SignIn</string>
+    <string name="signup">SignUp</string>
+    <string name="appTermsandUse">You agree to Tinmen Terms of use and Privacy Notice</string>
+
+    <string name="forgotpass">Forgot Password</string>
+    <string name="changepassword">Change Password</string>
+    <string name="add_address">Add Address</string>
+    <string name="add_a_new_address">Add New Address</string>
+    <string name="action_deliverto_address">Delivery Address</string>
+
+
+
+
+
+    <string-array name="profile_list_array">
+        <item>Edit Profile</item>
+        <item>Saved Addresses</item>
+        <item>Order History</item>
+        <item>Call Support</item>
+        <item>Email Support</item>
+        <item>Logout</item>
+    </string-array>
+
+</resources>

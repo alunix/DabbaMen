@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <include
+         android:id="@+id/toolbar"
+         layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <!--username-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/usernameLT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:hint="Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/Black" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--contactno-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/mobnoLT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mobET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contact No."
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:textColor="@color/Black" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--pincode-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/pincodeLT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pincodeET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="PIN Code"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/Black" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--addressline one-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/addresslineoneLT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/addresslineoneET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Flat,House no,Building,Apartment"
+                    android:imeOptions="actionNext"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:textColor="@color/Black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/towncityLT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/townCityET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Town/City"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/Black" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--state-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/stateLT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/stateET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="State"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/Black" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--country-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/countryLT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/countryET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Country"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/Black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/addnewaddress_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/rounded_orange_button"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/add_address"
+                android:textAllCaps="false"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
