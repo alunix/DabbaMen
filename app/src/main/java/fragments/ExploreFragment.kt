@@ -66,17 +66,6 @@ class ExploreFragment : Fragment() {
         dayselectRG.setOnCheckedChangeListener(clickListener)
         mListRecyclerView.setLayoutManager(LinearLayoutManager(getActivity()))
         mListRecyclerView.setHasFixedSize(true)
-
-       // mListRecyclerView.addItemDecoration(SimpleDividerItemDecoration(getResources()));
-        //add ItemDecoration
-        //mListRecyclerView.addItemDecoration(VerticalSpaceItemDecoration(VERTICAL_ITEM_SPACE))
-        //or
-        //mListRecyclerView.addItemDecoration(DividerItemDecoration(getActivity(),HORIZONTAL))
-        //or
-       /*mListRecyclerView.addItemDecoration(
-            DividerItemDecoration(activity!!,R.drawable.divider)
-        )*/
-
         val sdf = SimpleDateFormat("EEEE")
         val d = Date()
         val dayOfTheWeek = sdf.format(d)
