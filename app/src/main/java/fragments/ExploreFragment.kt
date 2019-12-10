@@ -32,10 +32,6 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList
 import androidx.recyclerview.widget.DividerItemDecoration
-
-
-
-
 class ExploreFragment : Fragment() {
     var veg_All_Switch: String = "all"
     var foodTypeRB: String = "Lunch"
@@ -74,7 +70,7 @@ class ExploreFragment : Fragment() {
             "Monday" -> "Tuesday"
             "Tuesday" -> "Wednesday"
             "Wednesday" -> "Thursday"
-            "Thursady" -> "Friday"
+            "Thursday" -> "Friday"
             "Friday" -> "Monday"
             "Saturday" -> "Monday"
             else -> "Monday"
@@ -210,7 +206,7 @@ class ExploreFragment : Fragment() {
                 "Mo" -> "Monday"
                 "Tu" -> "Tuesday"
                 "We" -> "Wednesday"
-                "Th" -> "Thursady"
+                "Th" -> "Thursday"
                 "Fr" -> "Friday"
                 "Sa" -> "Saturday"
                 else -> "Su"
