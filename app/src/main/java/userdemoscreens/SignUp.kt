@@ -14,14 +14,12 @@ import apirelated.CallApi
 import apirelated.Url
 import apirelated.login_register_moel.LoginRegisterResponse
 import com.anagha.dabbamen.R
-import com.google.android.material.textfield.TextInputLayout
 import okhttp3.OkHttpClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import utilities.NetworkConnectionCheck
 import utilities.WebCall
 import java.util.concurrent.TimeUnit
 
@@ -38,28 +36,28 @@ class SignUp : AppCompatActivity(), View.OnClickListener {
                     R.anim.right_to_left
                 );
 
-               /* if (!validations(
-                        mUserNameLET.editText.toString(),
-                        mUserEmailLET.editText.toString(),
-                        mUserPhoneLET.editText.toString(),
-                        mUserPasswordLET.editText.toString(),
-                        mUserConfirmPasswordLET.editText.toString()
-                    )
-                ) {
-                    if (NetworkConnectionCheck.checkInternetConnection(_context)) {
-                        userSignUp(
-                            mUserNameLET.editText.toString(), mUserEmailLET.editText.toString(),
-                            mUserPhoneLET.editText.toString(),
-                            mUserConfirmPasswordLET.editText.toString()
-                        );
-                    } else {
-                        WebCall(_context).DialogForWifi_Enable_CloseDialog(
-                            _context.getString(R.string.internet_enable),
-                            _context.getString(R.string.internet_enable_message),
-                            R.drawable.warning_red
-                        );
-                    }
-                }*/
+                /* if (!validations(
+                         mUserNameLET.editText.toString(),
+                         mUserEmailLET.editText.toString(),
+                         mUserPhoneLET.editText.toString(),
+                         mUserPasswordLET.editText.toString(),
+                         mUserConfirmPasswordLET.editText.toString()
+                     )
+                 ) {
+                     if (NetworkConnectionCheck.checkInternetConnection(_context)) {
+                         userSignUp(
+                             mUserNameLET.editText.toString(), mUserEmailLET.editText.toString(),
+                             mUserPhoneLET.editText.toString(),
+                             mUserConfirmPasswordLET.editText.toString()
+                         );
+                     } else {
+                         WebCall(_context).DialogForWifi_Enable_CloseDialog(
+                             _context.getString(R.string.internet_enable),
+                             _context.getString(R.string.internet_enable_message),
+                             R.drawable.warning_red
+                         );
+                     }
+                 }*/
             }
             R.id.link_login -> {
                 val intent = Intent(this, SignIn::class.java)
@@ -175,17 +173,17 @@ class SignUp : AppCompatActivity(), View.OnClickListener {
 
     }
 
-    lateinit var mUserNameLET: TextInputLayout
-    lateinit var mUserEmailLET: TextInputLayout
-    lateinit var mUserPhoneLET: TextInputLayout
-    lateinit var mUserPasswordLET: TextInputLayout
-    lateinit var mUserConfirmPasswordLET: TextInputLayout
+    /*  lateinit var mUserNameLET: TextInputLayout
+      lateinit var mUserEmailLET: TextInputLayout
+      lateinit var mUserPhoneLET: TextInputLayout
+      lateinit var mUserPasswordLET: TextInputLayout
+      lateinit var mUserConfirmPasswordLET: TextInputLayout*/
     lateinit var mSignUpBT: Button
     lateinit var mlinkSignInTV: TextView
     lateinit var mlinkTermsConditiaons: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.signup)
+        setContentView(R.layout.register_layout)
         initUI()
         uiListener()
     }
@@ -198,11 +196,11 @@ class SignUp : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun initUI() {
-        this.mUserNameLET = findViewById<TextInputLayout>(R.id.usernameLT)
-        this.mUserEmailLET = findViewById<TextInputLayout>(R.id.useremailLT)
-        this.mUserPhoneLET = findViewById<TextInputLayout>(R.id.mobileLT)
-        this.mUserPasswordLET = findViewById<TextInputLayout>(R.id.passwordLT)
-        this.mUserConfirmPasswordLET = findViewById<TextInputLayout>(R.id.confirmPasswordLT)
+        /* this.mUserNameLET = findViewById<TextInputLayout>(R.id.usernameLT)
+         this.mUserEmailLET = findViewById<TextInputLayout>(R.id.useremailLT)
+         this.mUserPhoneLET = findViewById<TextInputLayout>(R.id.mobileLT)
+         this.mUserPasswordLET = findViewById<TextInputLayout>(R.id.passwordLT)
+         this.mUserConfirmPasswordLET = findViewById<TextInputLayout>(R.id.confirmPasswordLT)*/
         this.mSignUpBT = findViewById<Button>(R.id.signupBT)
         this.mlinkSignInTV = findViewById<TextView>(R.id.link_login)
         this.mlinkTermsConditiaons = findViewById<TextView>(R.id.link_terms_cnd)

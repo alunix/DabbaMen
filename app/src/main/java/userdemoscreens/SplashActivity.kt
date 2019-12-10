@@ -16,7 +16,7 @@ class SplashActivity : AppCompatActivity() {
             else
             getstarted*/
             if (true) {
-                val intent = Intent(applicationContext, Dashboard::class.java)
+                val intent = Intent(applicationContext, SignIn::class.java)
                 startActivity(intent)
             } else {
                 val intent = Intent(applicationContext, GetStarted::class.java)

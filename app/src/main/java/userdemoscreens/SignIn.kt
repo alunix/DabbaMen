@@ -28,8 +28,8 @@ import java.util.concurrent.TimeUnit
 
 class SignIn : AppCompatActivity(), View.OnClickListener {
     var _context: Context = this@SignIn
-    lateinit var mUserEmailET: TextInputLayout
-    lateinit var mUserPasswordET: TextInputLayout
+    //lateinit var mUserEmailET: TextInputLayout
+    //lateinit var mUserPasswordET: TextInputLayout
     lateinit var mSignInBT: Button
     lateinit var mlinkSignupTV: TextView
     lateinit var mlinkForgotPasswordTV: TextView
@@ -159,7 +159,7 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.singin)
+        setContentView(R.layout.login_layout)
         initUI()
         uiListener()
     }
@@ -171,8 +171,8 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun initUI() {
-        this.mUserEmailET = findViewById<TextInputLayout>(R.id.useremailLT)
-        this.mUserPasswordET = findViewById<TextInputLayout>(R.id.passwordLT)
+       // this.mUserEmailET = findViewById<TextInputLayout>(R.id.useremailLT)
+       // this.mUserPasswordET = findViewById<TextInputLayout>(R.id.passwordLT)
         this.mSignInBT = findViewById<Button>(R.id.signInBT)
         this.mlinkSignupTV = findViewById<TextView>(R.id.link_signupTV)
         this.mlinkForgotPasswordTV = findViewById<TextView>(R.id.link_forgot_passwordTV)

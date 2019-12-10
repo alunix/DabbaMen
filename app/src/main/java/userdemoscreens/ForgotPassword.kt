@@ -20,7 +20,7 @@ class ForgotPassword : AppCompatActivity(), View.OnClickListener {
 
 
 
-    lateinit var mUserEmailLET: TextInputLayout
+  //  lateinit var mUserEmailLET: TextInputLayout
     lateinit var mForgotPasswordBT: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,7 +38,7 @@ class ForgotPassword : AppCompatActivity(), View.OnClickListener {
 
     private fun initUI() {
 
-        this.mUserEmailLET = findViewById<TextInputLayout>(R.id.useremailLT)
+      //  this.mUserEmailLET = findViewById<TextInputLayout>(R.id.useremailLT)
         this.mForgotPasswordBT = findViewById<Button>(R.id.forgotpasswordBT)
 
     }
